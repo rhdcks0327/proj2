@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/*googleips 웹폰트 css 파일 불러오기*/
+@import url(https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;900&display=swap');
+/*
+font-family: 'Noto Sans KR', sans-serif;
+*/
+/*font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Galada', cursive; */
+
+/* 저장된 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(../font/NanumGothic.ttf); }  */
+/* 웹사이트의 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(http://uhbee.com/nanum.eot) ; }   */
+
+
+* {margin:0; padding:0;}
+html{font-size:16px;}
+body{ font-size:16px;
+      color:#6f6f6f;
+      font-family: 'Nanum Gothic', sans-serif }
+ul, ol, li{list-style-type:none}
+img, fieldset{border:none;vertical-align: middle}
+hr {clear:both;border:none}
+a {color:inherit;text-decoration:none;
+   outline:0}
+table{border-collapse:collapse}
+input, textarea,
+input::placeholder, textarea::placeholder {
+      color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle;
+      outline: 0;}
+button{outline:0}
+
+.sound_only{display: block;text-indent:-9999999999px;
+      height:0}
+
+.inner{min-width:1024px;max-width:1280px;margin:0 auto;}   
+.headerinner{min-width:1633px;max-width:1833px;margin:0 auto;}
+
+
+/*네비*/
+
+#header .top_icon{float:right; width: 10%;
+  height:75px; 
+     }
+#header .top_icon ul li{ 
+      display: inline; height: 74px; }   
+
+#header .top_icon ul #icon01 a img{width: 80%;
+ }
+ #header .top_icon ul #icon02 a img{width: 20%;}
+     
+   
+  /* 네비4 - 메가네비100% */
+  #header .inner{position: relative;}  
+  #nav{
+        margin-top: 30px;
+      line-height: 3.2em;
+      position: relative;
+      margin-bottom: 35px;
+     
+   
+   }
+   #m_nav{height: 3.2em;
+      overflow: hidden; 
+      position: absolute;
+    
+      background-color:rgba(255,255,255,0);
+      transition:1s;
+      width: 100%;
+      z-index: 1;
+      margin: 0 auto;
+      
+ 
+   }
+   
+   
+   #m_nav > li:first-child{margin-left: 430px;}
+  
+   
+   #m_nav > li{
+      float:left;
+      width:4.0em;
+      padding:0 3em; 
+
+   }
+   #m_nav > li:last-child{margin-left: 25px;}
+   
+   #m_nav > li > a{
+      color:#000;
+      font-size:1em;
+
+    
+   }
+   
+   #m_nav ul li{
+      display:block;
+      line-height: 2em;
+     
+   
+   }
+   #m_nav ul li a{
+      font-size:0.8em;
+
+   }
+
+   
+ #m_nav > li > a:after {content: '';height:3px; background-color:rgb(12, 12, 27);
+      position: relative;width:0;display: block;
+      transition: 0.5s;
+      margin-top: 20px;}
+#m_nav  > li:hover > a:after{width:100%;}
+
+
+
+
+#header #logo{float:left;display: table;z-index: 80px }
+#header #logo a{display: table-cell;vertical-align: middle;
+}
+#logo{width:calc(15.5% - 0px); margin-right: 20px;}
+#logo img{width:100%; top: -20px; margin-top: 15px; }
+
+h2{font-size: 1.875rem; display: inline-block;}
+h3{font-size: 0.9375rem; display: inline-block;}
+
+#header #logo{float:left;}
+
+
+#footer{width:100%; height: 266px; background-color: rgb(15, 15, 15);}
+/*---------------------------------------------------------------------------------*/
