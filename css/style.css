@@ -1,0 +1,66 @@
+#wrap{}
+#header{}
+#section{}
+#footer{}
+
+/*********************slide****************************/
+
+
+
+
+
+
+
+
+
+
+
+/*********************section****************************/
+#Sec1 img{width: 100%; }
+#Sec2 img{width: 100%;}
+
+
+
+#sec3 h2{font-size:3.2rem;color: rgb(37, 35, 35); margin-top: 140px;
+margin-bottom: 30px;}
+#sec3 p{font-size: 1.4rem; margin-left: 5px; font-weight: 500; }  
+#sec3 #box01{width: 619px; height: 423px; background-color: #151524; float: left;
+margin-top: 140px; }
+#sec3 #box01 p {color: white;font-size: 2.1rem; margin-left: 30px; float: left;
+margin-top: 50px; font-weight: 900; }
+#sec3 #box01 #txt2{margin-top: 40px; float: left; font-size: 1.8rem;
+    font-weight: normal; line-height: 50px;}
+#sec3 #box01 span{top: 20px;}
+#sec3 #box01 span img{width: 6%;}
+
+#sec3 #box02{width: 619px; height: 423px; background-color: #151524; float: right;
+margin-top: 70px;}
+#sec3 #box02 p {color: white;font-size: 2.1rem; margin-left: 30px; float: left;
+    margin-top: 50px; font-weight: 900; }
+#sec3 #box02 #txt2{margin-top: 40px; float: left; font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 50px;
+}
+#sec3 #box02 span img{width: 6%;}
+
+#sec4 .m_box {
+    padding-top: 286px;
+    width:100%;text-align: center;
+   overflow:hidden;
+    }
+#sec4 .m_box li{width:calc(17% - 5px);
+    margin-right: 10px;
+    height: 339px;
+    text-align: center; display: inline-block; 
+background-color: yellowgreen;}
+
+#sec5 h2{font-size:3.2rem;color: rgb(37, 35, 35); margin-top: 286px;
+    margin-bottom: 30px;}
+#sec5 p{font-size: 1.4rem; margin-left: 5px;}    
+#sec5 #back{width: 100%; height: 480px; background-color: black;
+position: relative;
+margin-top: 310px;
+margin-bottom: 310px;}
+
+#sec7 img{width: 100%;}
+/*********************footer****************************/
