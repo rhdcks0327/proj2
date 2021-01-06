@@ -16,5 +16,4 @@ $(document).ready(function(){//실행틀 시작
                        },function(){$(this).stop().css({height:'3.2em','background-color':'rgba(255,255,255,0)'})
                        })
                        
-                       
                     })
