@@ -100,7 +100,8 @@ button{outline:0}
    #m_nav > li > a{
       color:#000;
       font-size:1.3rem;
-
+      height: 100px;
+      width: 200px;
     
    }
    
@@ -168,6 +169,8 @@ float: right; }
 .foot1 .list a:hover{color: rgb(82, 79, 79);}
 
 .foot1 #left li a{float: left;}
+
+#footer .con1 .hope{font-size: 1.0px; color: rgba(110, 109, 109, 0.541);}
 
 #footer .con2{width: 70%; height: 80px;}
 #footer .con2 li{display: inline-block; margin-right: 100px;}
