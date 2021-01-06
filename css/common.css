@@ -49,10 +49,11 @@ button{outline:0}
 #header .top_icon{float:right; width: 10%;
   height:75px; 
      }
-#header .top_icon ul li{ 
+#header .top_icon ul li{ width: 100px;
       display: inline; height: 74px; }   
 
 #header .top_icon ul #icon01 a img{width: 80%;float: left;
+      margin-top: 10px;
  }
  #header .top_icon ul #icon02 a img{width: 20%; }
      
@@ -86,7 +87,7 @@ button{outline:0}
   
    
    #m_nav > li{
-         margin-left: 20px;
+         margin-left: 36px;
       float:left;
       width:4.0em;
       padding:0 2em; 
@@ -130,7 +131,7 @@ button{outline:0}
 #header #logo a{display: table-cell;vertical-align: middle;
 }
 #logo{width:calc(15.5% - 0px); margin-right: 20px;}
-#logo img{width:100%; top: -20px; margin-top: 15px; }
+#logo img{width:40%; top: -20px; margin-bottom: 5px; margin-left: 40px; }
 
 h2{font-size: 1.875rem; display: inline-block;}
 h3{font-size: 0.9375rem; display: inline-block;}
@@ -138,5 +139,37 @@ h3{font-size: 0.9375rem; display: inline-block;}
 #header #logo{float:left;}
 
 
-#footer{width:100%; height: 266px; background-color: rgb(15, 15, 15);}
+#footer{width:100%; height: 206px; background-color: rgb(15, 15, 15);}
+
+#footer .con2 li{color: rgb(165, 165, 165); display: inline;  float: left;
+      font-size: 0.8rem; margin-top: 50px;}
+#footer .s{border: 0.5px solid rgba(105, 105, 105, 0.342); margin-top: 15px;}
+
+#footer .foot1{float: right; } 
+#footer .foot1 li{float: right; margin-top: 30px;}
+#footer .con1{width: 500px; height: 80px;}
+#footer .con1 li{float: left; margin-right: 20px;
+      color: rgb(165, 165, 165); display: inline;  float: left;
+      font-size: 0.7rem; margin-top: 20px; }
+#footer .select_tit{border: 1px solid rgb(165, 165, 165); padding:10px 20px 15px 20px; font-size: 0.8rem;
+float: right; }
+
+.foot1 .select_tit::after{content: ''; display: inline-block; width: 15px; height: 15px;
+               background: url(../images/icon_set1.png);
+               background-position: -5px -425px;
+               transform: rotate(-90deg); margin-left: 4px;}
+.foot1 .list{position: absolute; left: 0; bottom: 44px; border: 1px solid #000;
+             width: 100%; box-sizing: border-box; padding: 1px; display: none;
+             height: 500px; background-color: white;}  
+.foot1 li{position: relative;}             
+.foot1 li:hover .list{display: block; height: auto;}            
+.foot1 li:hover .select_tit::after{transform: rotate(90deg);}         
+.foot1 .list a {display: block; margin:5px;margin-bottom: 10PX;} 
+.foot1 .list a:hover{color: rgb(82, 79, 79);}
+
+.foot1 #left li a{float: left;}
+
+#footer .con2{width: 70%; height: 80px;}
+#footer .con2 li{display: inline-block; margin-right: 100px;}
+
 /*---------------------------------------------------------------------------------*/
