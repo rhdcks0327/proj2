@@ -16,8 +16,10 @@
 
 
 /*********************section****************************/
+#Sec2 {width: 100%; height: 703px; overflow: hidden; margin-top: 110px; }
 #Sec1 img{width: 100%; }
-#Sec2 img{width: 100%; margin-top: 90px; }
+#Sec2 img{width: 100%; transition: 1.2s;}
+#Sec2 img:hover{transform: scale(1.02);  }
 #Sec2 a {padding-bottom: 100px;}
 
 
@@ -51,7 +53,7 @@ margin-top: 70px;}
    overflow:hidden;
     }
     #sec4 .m_box a{position: absolute; color: white; 
-      margin-left: 113px; margin-top: 270px;
+      margin-left: 108px; margin-top: 270px;
       border:1px solid  white;
       width: 100px; height: 30px;
       padding-top: 10px;
@@ -65,13 +67,16 @@ margin-top: 70px;}
     text-align: center; display: inline-block; 
 background-color: yellowgreen;}
 
-#sec5 h2{font-size:3.2rem;color: rgb(37, 35, 35); margin-top: 286px;
+.box1 h2{font-size:3.2rem;color: rgb(37, 35, 35); margin-top: 206px;
     margin-bottom: 30px;}
-#sec5 p{font-size: 1.4rem; margin-left: 5px;}    
-#sec5 #back{width: 100%; height: 480px; background-color: black;
+.box1 p{font-size: 1.4rem; margin-left: 5px; margin-bottom: 50px;}    
+.box1 #back{width: 100%; height: 480px; background-color: black;
 position: relative;
 margin-top: 310px;
-margin-bottom: 310px;}
+margin-bottom: 310px; z-index: -9999999999;}
 
-#sec7 img{width: 100%;}
+#sec7{margin-top: 206px; width: 100%; height: 815px; }
+#sec7 img{width: 100%; }
+#sec7 a:last-child{}
+
 /*********************footer****************************/
