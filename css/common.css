@@ -52,9 +52,9 @@ button{outline:0}
 #header .top_icon ul li{ 
       display: inline; height: 74px; }   
 
-#header .top_icon ul #icon01 a img{width: 80%;
+#header .top_icon ul #icon01 a img{width: 80%;float: left;
  }
- #header .top_icon ul #icon02 a img{width: 20%;}
+ #header .top_icon ul #icon02 a img{width: 20%; }
      
    
   /* 네비4 - 메가네비100% */
@@ -63,7 +63,7 @@ button{outline:0}
         margin-top: 30px;
       line-height: 3.2em;
       position: relative;
-      margin-bottom: 35px;
+      margin-bottom: 3px;
      
    
    }
@@ -77,24 +77,28 @@ button{outline:0}
       z-index: 1;
       margin: 0 auto;
       
+      
  
    }
    
    
-   #m_nav > li:first-child{margin-left: 430px;}
+
   
    
    #m_nav > li{
+         margin-left: 20px;
       float:left;
       width:4.0em;
-      padding:0 3em; 
+      padding:0 2em; 
+      width: 120px;
 
    }
-   #m_nav > li:last-child{margin-left: 25px;}
+
+   #m_nav > li:last-child{margin-left: 120px;}
    
    #m_nav > li > a{
       color:#000;
-      font-size:1em;
+      font-size:1.3rem;
 
     
    }
@@ -106,9 +110,11 @@ button{outline:0}
    
    }
    #m_nav ul li a{
-      font-size:0.8em;
+      font-size:0.9em;
+      margin-top: 200px;
 
    }
+   #m_nav ul li a:hover{color: black; font-weight: 600;}
 
    
  #m_nav > li > a:after {content: '';height:3px; background-color:rgb(12, 12, 27);
