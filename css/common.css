@@ -43,17 +43,18 @@ button{outline:0}
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}   
 .headerinner{min-width:1633px;max-width:1833px;margin:0 auto;}
 
-
+#wrap{overflow: hidden;}
 /*네비*/
 
 #header .top_icon{ width: 10%;
   height:75px; margin-bottom: 30px; margin-right: 30px;
+  min-width: 200px;
      }
 #header .top_icon ul li{ width: 100px;
       display: inline; height: 74px; }   
 
 
-.top_icon .select_tit{border: 1px solid rgb(139, 139, 139); padding:1px 20px 1px 20px; font-size: 0.8rem;
+.top_icon .select_tit{border: 1px solid rgb(165, 165, 165); padding:1px 20px 1px 20px; font-size: 0.8rem;
       float: right;background-color: rgb(9, 37, 94);  color: #fff; font-weight: 500;}
       
 .top_icon li{position: relative;}   
@@ -64,7 +65,7 @@ button{outline:0}
                      transform: rotate(-90deg); margin-left: 4px; margin-top: 5px;}
 .top_icon  .list{position: absolute; left: 0;  border: 1px solid #000;
              width: 132px; box-sizing: border-box; padding: 10px; display: none;
-              background-color: white; margin-left: 14px;
+              background-color: white; margin-left: 68px;
             top: 53px;}  
 .top_icon  li:hover .list{display: block; height:120px;} 
 .top_icon  li:hover .select_tit{background-color:  #000;; transition: 2s; color:#fff}           
@@ -114,12 +115,12 @@ button{outline:0}
       font-size:0.9em;
       margin-top: 200px;
    }
-#m_nav ul li a:hover{color: black; font-weight: 600;}
+#m_nav ul li a:hover{color: rgb(8, 27, 88); font-weight: 600;}
   
-#m_nav > li > a:after {content: '';height:3px; background-color:rgb(12, 12, 27);
+#m_nav > li > a:after {content: '';height:3px; background-color:rgb(8, 27, 88);
       position: relative;width:0;display: block;
       transition: 0.5s;
-      margin-top: 20px;}
+      margin-top: 25px; margin-bottom: 14px;}
 #m_nav  > li:hover > a:after{width:100%;}
 
 
