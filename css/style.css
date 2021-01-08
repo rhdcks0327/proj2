@@ -16,8 +16,12 @@
 
 
 /*********************section****************************/
-#Sec2 {width: 100%; height: 703px; overflow: hidden; margin-top: 110px; }
+
+
 #Sec1 img{width: 100%; }
+
+#Sec2 {width: 100%; height: 703px; overflow: hidden; margin-top: 110px; }
+
 #Sec2{background-image: url(../images/sec2-none.jpg);}
 #Sec2 img{width: 100%; }
 #Sec2 a{color: rgb(221, 219, 219); float: left;
@@ -78,7 +82,8 @@ margin-top: 70px;}
 #sec4 .m_box li{width:calc(17% - 5px);
     margin-right: 10px;
     height: 339px;
-    text-align: center; display: inline-block; 
+    text-align: center; display: inline-block; overflow: hidden;
+    min-width: 318px;
 background-color: yellowgreen;}
 
 
@@ -86,7 +91,7 @@ background-color: yellowgreen;}
 
 #sec5 h2{font-size:3.2rem;color: rgb(37, 35, 35); margin-top: 206px;
     margin-bottom: 30px;}
-#sec5 p{font-size: 1.4rem; margin-left: 5px; }    
+#sec5 p{font-size: 1.4rem; margin-left: 5px; margin-bottom: 10px;}    
 
 #sec5 .square{width: 100%; height: 780px; background-color: black;
 position: absolute; z-index:-9999; 
