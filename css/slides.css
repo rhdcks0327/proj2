@@ -22,4 +22,8 @@
 #sec5 .slick-slide{margin-left: 30px; margin-top: 40px;}
 #sec5 .slick-slide h1{font-size: 1.0rem; margin-top: 10px;}
 #sec5 button{}
-#sec5 .slick-list{left: 312px;}
+#sec5 .variable{ position: relative; width: 1900px;}
+#sec5 .slick-arrow{position: absolute; top: 0;  z-index: 9999; }
+#sec5 .slick-prev{left: 0; z-index: 9999; text-indent: 9999px; width: 30px; height: 30px; border: none;  }
+#sec5 .slick-next{left: 40px;z-index: 9999; text-indent: 9999px;width: 30px; width: 30px; height: 30px; border: none; }
+
