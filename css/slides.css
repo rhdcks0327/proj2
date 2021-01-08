@@ -4,9 +4,9 @@
 #sec1 .slick-dots li{display:inline-block;}
 #sec1 .slick-dots{text-align: center;width: 100%; position: absolute;
   bottom: 14px;} 
-#sec1 .slick-dots li button{border-radius: 80px; width: 20px;text-indent: 9999px;background-color:  rgb(216, 216, 216);
-  border: 1px solid rgb(216, 216, 216); margin-right: 10px;}
-#sec1 .slick-dots li.slick-active button{background-color:rgb(104, 100, 100);border: 1px solid rgb(104, 100, 100); }
+#sec1 .slick-dots li button{border-radius: 80px; width: 20px;text-indent: 9999px;background-color: rgb(104, 100, 100); 
+  border: 1px solid   rgb(104, 100, 100);; margin-right: 10px;}
+#sec1 .slick-dots li.slick-active button{background-color: rgb(216, 216, 216);border: 1px solid rgb(216, 216, 216) }
 
 
 
@@ -19,7 +19,7 @@
 
 /* 뉴스 슬라이드 */
 
-.box1 .slick-slide{margin-left: 30px; margin-top: 40px;}
-
-.box1 button{margin: 20px;  left: 100px;}
-.box1 .slick-list{left: 312px;}
+#sec5 .slick-slide{margin-left: 30px; margin-top: 40px;}
+#sec5 .slick-slide h1{font-size: 1.0rem; margin-top: 10px;}
+#sec5 button{}
+#sec5 .slick-list{left: 312px;}
