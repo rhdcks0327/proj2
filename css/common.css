@@ -61,7 +61,7 @@ button{outline:0}
 .top_icon .select_tit::after{content: ''; display: inline-block; width: 15px; height: 15px;
                      background: url(../images/icon_set1.png);
                      background-position: -5px -425px;
-                     transform: rotate(-90deg); margin-left: 4px; margin-top: 5px; margin-left: 10px;}
+                     transform: rotate(-90deg); margin-left: 4px; margin-top: 5px;}
 .top_icon  .list{position: absolute; left: 0;  border: 1px solid #000;
              width: 132px; box-sizing: border-box; padding: 10px; display: none;
               background-color: white; margin-left: 14px;
